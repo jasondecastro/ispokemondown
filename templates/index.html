@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
 <title>Is Pokemon Go up or down?</title>
-
-<link rel="stylesheet" href="http://wtfsigte.com/css/screen.css">
+<meta name="description" content="Is Pokemon Go up or down?"/>
+<meta name="keywords" content="pokemon go, pokemon go uptime, is pokemon go up, pokemon go down, pokemon go offline"/>
+<meta name="author" content="Jason Decastro"/>
+<link href="https://s3.amazonaws.com/ispokemondown/favicon.ico
+" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" href="https://s3.amazonaws.com/ispokemondown/screen.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<style>html {overflow:hidden;}</style>
+<meta property="fb:admins" content="Jason Decastro"/>
+<!--Basic Facebook Open graph tags-->
+<meta property="og:title" content="Is Pokemon Go up or down right now?"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://ispokemondown.com"/>
+<meta property="og:image" content="https://s3.amazonaws.com/ispokemondown/apple-touch-icon-precomposed.png"/>
+<meta name="og:site_name" content="IsPokemonDown"/>
+<meta name="og:description" content="Find out if Pokemon Go is currently up or down without the hassle of logging in."/>
+<meta name="viewport" content="width=device-width">
 </head>
 <body>
 <section class="grid grid--alpha main">
     <div class="grid__row">
-        <div class="grid__column sml--column-3-3 med--column-6-6 lrg--column-12-12" style="margin-top:120px;">
-        <center><h1 style="font-size:72px;">
+        <div class="grid__column sml--column-3-3 med--column-6-6 lrg--column-12-12" style="margin-top:0px;">
+        <center><img style="width:200px; height:200px;" src="https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG"></center>
+        <center>
+        <h1 style="font-size:72px;">
         {% if status == True %}
-            Pokemon Go is <span style="color:green;">up</span>
+            Pokemon Go is <span style="color:green;">up</span> right now 
         {% endif %}
         {% if status == False %}
             Pokemon Go is <span style="color:red;">down</span>
         {% endif %}
-        </h1></center>
+        </h1>
+        <br>
+        <p></p>
+        <p style="font-size:14px;">Created by <strong><a style="" href="google.com">Ruben Cecíl</a></strong></p>
+        
+        <!-- <img style="width:300px;height:300px;" src="https://s3.amazonaws.com/ispokemondown/pikachu.png"> --></center>
         </div>
     </div>  
 </body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53769537-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </html>
